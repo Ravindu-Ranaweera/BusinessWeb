@@ -1,13 +1,17 @@
-import Member from './Member'
+import Middleimg from './Middleimg'
+import BottomSlider from './BottomSlider'
+import Topwave02 from './Topwave02'
 
-function sectionSix() {
+function SectionSix() {
     return (
-        <div className='container m-auto px-12 flex flex-row justify-center mt-20'>
-            <Member path={'./img/team01.jpg'} name={'Brian B. Rooney'}/>
-            <Member path={'./img/team02.jpg'} name={'Raymond N. Gill'}/>
-            <Member path={'./img/team03.jpg'} name={'Michelle C. Ward'}/>
+        <div className='mt-36'>
+            <Topwave02 />
+            <Middleimg path={'./img/middle02.jpg'}/>
+            <BottomSlider/>
         </div>
     )
 }
 
-export default sectionSix
+
+
+export default SectionSix

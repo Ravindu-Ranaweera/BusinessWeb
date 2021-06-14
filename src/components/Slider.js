@@ -12,9 +12,6 @@ function Slider() {
                 <img className='absolute w-full h-full object-cover' src={'./img/slider.jpg'}/>
             </div>
             
-            
-            
-            
         </div>
         
     )
